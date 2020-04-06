@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_movie">
+
+    <fragment
+        android:id="@+id/navigation_movie"
+        android:name="com.agungsptr.moviecatalogue.view.movie.MovieFragment"
+        tools:layout="@layout/fragment_movie" />
+
+    <fragment
+        android:id="@+id/navigation_release_today"
+        android:name="com.agungsptr.moviecatalogue.view.releasetoday.ReleaseTodayFragment"
+        tools:layout="@layout/fragment_movie_release_today" />
+
+    <fragment
+        android:id="@+id/navigation_tvShow"
+        android:name="com.agungsptr.moviecatalogue.view.tvshow.TvShowFragment"
+        tools:layout="@layout/fragment_tv_show" />
+</navigation>

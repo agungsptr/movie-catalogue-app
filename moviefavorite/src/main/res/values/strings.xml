@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Movie Catalogue Favorite</string>
+    <string name="poster_movie">Poster Movie</string>
+    <string name="title_movie">Movie</string>
+    <string name="no_data_favorite_movie">No data Movie Favorite</string>
+    <string name="no_data_favorite_tvshow">No data TV Show Favorite</string>
+    <string name="fav_tab_movie">Movies</string>
+    <string name="fav_tab_tvshow">TV Show</string>
+</resources>
